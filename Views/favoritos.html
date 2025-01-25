@@ -29,18 +29,34 @@
 
         <div class="container-fluid p-4">
             <h1>Favoritos</h1>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                    <a href="detalleContacto.html">
-                        <i class="fas fa-star"></i> Jose Perez | 5045-2560
-                    </a>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <i class="fas fa-star"></i> Jose Perez | 5045-2560
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Descripcion:</strong> José es un hombre enérgico y siempre en movimiento, conocido por su capacidad de solucionar cualquier problema con una sonrisa. Es el tipo de persona que encuentra soluciones en medio del caos, un verdadero líder con un toque de carisma que hace que todos lo sigan sin pensarlo dos veces. Su número de teléfono, 5045-2560, es un recordatorio de su conexión constante con los demás.
+                                </div>
+                            </div>
+                        </div>
                 </li>
                 <li class="list-group-item">
-                    <a href="detalleContacto.html">
-                        <i class="fas fa-star"></i> Carlos Gómez | 1234-5678
-                    </a>
-                </li>
-            </ul>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    <i class="fas fa-star"></i> Carlos Gómez | 1234-5678
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Descripcion:</strong> Carlos es un hombre tranquilo y reflexivo, que prefiere la calma y el orden en su vida. Siempre con un libro en mano y un enfoque meticuloso en cada detalle, es un experto en la investigación y en las pequeñas cosas que otros suelen pasar por alto. Su número, 1234-5678, refleja su estilo sencillo y directo en todo lo que hace.
+                                  </div>
+                              </div>
+                        </div>
             <div class="mt-4">
                 <a href="contactos.html" class="btn btn-secondary">Regresar</a>
             </div>

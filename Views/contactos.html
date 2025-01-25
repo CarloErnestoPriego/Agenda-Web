@@ -30,11 +30,68 @@
         <div class="container-fluid p-4">
             <h1>Contactos</h1>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="detalleContacto.html">Jose Perez | 5045-2560</a></li>
-                <li class="list-group-item"><a href="detalleContacto.html">Carlos Gómez | 1234-5678</a></li>
-                <li class="list-group-item"><a href="detalleContacto.html">Ana Martínez | 9876-5432</a></li>
-                <li class="list-group-item"><a href="detalleContacto.html">Luis Rodríguez | 5555-1234</a></li>
-                <li class="list-group-item"><a href="detalleContacto.html">María Fernández | 4444-5678</a></li>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Jose Perez | 5045-2560
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Descripcion:</strong> José es un hombre enérgico y siempre en movimiento, conocido por su capacidad de solucionar cualquier problema con una sonrisa. Es el tipo de persona que encuentra soluciones en medio del caos, un verdadero líder con un toque de carisma que hace que todos lo sigan sin pensarlo dos veces. Su número de teléfono, 5045-2560, es un recordatorio de su conexión constante con los demás.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Carlos Gómez | 1234-5678
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Descripcion:</strong> Carlos es un hombre tranquilo y reflexivo, que prefiere la calma y el orden en su vida. Siempre con un libro en mano y un enfoque meticuloso en cada detalle, es un experto en la investigación y en las pequeñas cosas que otros suelen pasar por alto. Su número, 1234-5678, refleja su estilo sencillo y directo en todo lo que hace.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ana Martínez | 9876-5432
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Descripcion:</strong> Ana es una mujer audaz y creativa, llena de ideas innovadoras que siempre sorprenden a quienes la rodean. Su visión del mundo es única y no tiene miedo de romper moldes. Con una energía contagiante, su número de teléfono, 9876-5432, es tan vibrante como su personalidad, siempre lista para conectarse con nuevas oportunidades.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Luis Rodríguez | 5555-1234
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Descripcion:</strong> Luis es el amigo leal, el que siempre está allí cuando más se le necesita. Su naturaleza confiable y su capacidad para mantener la calma bajo presión lo convierten en el pilar de su grupo. Con un estilo equilibrado y práctico, su número de teléfono, 5555-1234, es sinónimo de estabilidad y confianza.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            María Fernández | 4444-5678
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Descripcion:</strong> María es una mujer energética y dinámica, con una pasión por la aventura y el descubrimiento. Siempre en busca de nuevos retos, su curiosidad es insaciable y se rodea de personas que comparten su amor por la vida. Su número, 4444-5678, es tan enérgico y vibrante como ella, reflejando su actitud positiva ante cada experiencia.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
             </ul>
             <div class="mt-4">
                 <a href="nuevoContacto.html" class="btn btn-primary">Agregar Contacto</a>
